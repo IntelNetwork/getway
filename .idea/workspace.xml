@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69a71584-3f01-41ab-bdf6-ac26c6a2c293" name="Default Changelist" comment="" />
+    <list default="true" id="69a71584-3f01-41ab-bdf6-ac26c6a2c293" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT-exec.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/java/org/smartwork/SmartworkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/java/org/smartwork/SmartworkApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/resources/log/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/resources/log/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/log/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/log/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/org/smartwork/SmartworkApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/org/smartwork/SmartworkApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smartwork_usercenter" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_usercenter" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -80,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582596040935</updated>
       <workItem from="1582596044890" duration="5830000" />
-      <workItem from="1582601923874" duration="16855000" />
+      <workItem from="1582601923874" duration="27548000" />
     </task>
     <servers />
   </component>
@@ -92,61 +105,198 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="99" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1582600850306" />
+    <state width="425" height="454" key="DebuggerActiveHint" timestamp="1582629564215">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="425" height="454" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1582629564215" />
     <state x="398" y="99" key="FileChooserDialogImpl" timestamp="1582615878914">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="398" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582615878914" />
-    <state width="932" height="2" key="GridCell.Tab.0.bottom" timestamp="1582621534472">
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1582635055339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="932" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582621534472" />
-    <state width="932" height="2" key="GridCell.Tab.0.center" timestamp="1582621534472">
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582635055339" />
+    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1582635055338">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="932" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582621534472" />
-    <state width="932" height="2" key="GridCell.Tab.0.left" timestamp="1582621534471">
+    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582635055338" />
+    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1582635055338">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="932" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582621534471" />
-    <state width="932" height="2" key="GridCell.Tab.0.right" timestamp="1582621534472">
+    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582635055338" />
+    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1582635055339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="932" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582621534472" />
-    <state width="933" height="215" key="GridCell.Tab.1.bottom" timestamp="1582617197230">
+    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582635055339" />
+    <state width="1237" height="210" key="GridCell.Tab.1.bottom" timestamp="1582634041739">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="933" height="215" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582617197230" />
-    <state width="933" height="215" key="GridCell.Tab.1.center" timestamp="1582617197230">
+    <state width="1237" height="210" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582634041739" />
+    <state width="1237" height="210" key="GridCell.Tab.1.center" timestamp="1582634041739">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="933" height="215" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582617197230" />
-    <state width="933" height="215" key="GridCell.Tab.1.left" timestamp="1582617197230">
+    <state width="1237" height="210" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582634041739" />
+    <state width="1237" height="210" key="GridCell.Tab.1.left" timestamp="1582634041739">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="933" height="215" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582617197230" />
-    <state width="933" height="215" key="GridCell.Tab.1.right" timestamp="1582617197230">
+    <state width="1237" height="210" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582634041739" />
+    <state width="1237" height="210" key="GridCell.Tab.1.right" timestamp="1582634041739">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="933" height="215" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582617197230" />
+    <state width="1237" height="210" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582634041739" />
+    <state width="1237" height="210" key="GridCell.Tab.2.bottom" timestamp="1582634041740">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="210" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582634041740" />
+    <state width="1237" height="210" key="GridCell.Tab.2.center" timestamp="1582634041740">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="210" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1582634041740" />
+    <state width="1237" height="210" key="GridCell.Tab.2.left" timestamp="1582634041739">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="210" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1582634041739" />
+    <state width="1237" height="210" key="GridCell.Tab.2.right" timestamp="1582634041740">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="210" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1582634041740" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1582608806011">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582608806011" />
-    <state x="331" y="95" width="617" height="490" key="find.popup" timestamp="1582598593390">
+    <state x="331" y="95" width="617" height="490" key="find.popup" timestamp="1582624257089">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="331" y="95" width="617" height="490" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1582598593390" />
-    <state x="28" y="48" key="new project wizard" timestamp="1582596654699">
+    <state x="331" y="95" width="617" height="490" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1582624257089" />
+    <state x="28" y="48" key="new project wizard" timestamp="1582634816264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="28" y="48" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1582596654699" />
-    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1582621534488">
+    <state x="28" y="48" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1582634816264" />
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1582635055365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1582621534488" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1582620770450">
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1582635055365" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1582633029525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1582620770450" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1582633029525" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayProperties.class</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayProperties.class</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/route/Route.class</url>
+          <line>104</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/handler/FilteringWebHandler.class</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/handler/FilteringWebHandler.class</url>
+          <line>45</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/realm/ExtRealm.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/realm/ExtRealm.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/handler/FilteringWebHandler.class</url>
+          <line>95</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayAutoConfiguration.class</url>
+          <line>188</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayAutoConfiguration.class</url>
+          <line>165</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE.jar!/org/springframework/web/util/pattern/PathPatternRouteMatcher.class</url>
+          <line>46</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE.jar!/org/springframework/web/util/pattern/PathPatternRouteMatcher.class</url>
+          <line>34</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE.jar!/org/springframework/util/SimpleRouteMatcher.class</url>
+          <line>29</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE.jar!/org/springframework/web/util/pattern/PathPatternRouteMatcher.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayProperties.class</url>
+          <line>25</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayProperties.class</url>
+          <line>31</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayAutoConfiguration.class</url>
+          <line>155</line>
+          <properties class="org.springframework.cloud.gateway.config.GatewayAutoConfiguration" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.4.RELEASE/spring-boot-autoconfigure-2.2.4.RELEASE.jar!/org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration.class</url>
+          <line>62</line>
+          <properties class="org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

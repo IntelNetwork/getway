@@ -1,0 +1,342 @@
+2020-02-25 19:50:48.790 [Thread-20] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Get connection: {}->http://122.51.238.114:8861, timeout = 5000
+2020-02-25 19:50:48.790 [Thread-20] DEBUG com.netflix.discovery.shared.NamedConnectionPool - [{}->http://122.51.238.114:8861] total kept alive: 2, total issued: 0, total allocated: 2 out of 200
+2020-02-25 19:50:48.790 [Thread-20] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Getting free connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 19:50:48.790 [Thread-20] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2020-02-25 19:50:48.792 [Thread-20] DEBUG o.a.h.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2020-02-25 19:50:48.792 [Thread-20] DEBUG o.a.h.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /eureka/apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863 HTTP/1.1
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.wire -  >> "DELETE /eureka/apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863 HTTP/1.1[\r][\n]"
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Id: 192.168.1.8[\r][\n]"
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip[\r][\n]"
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.wire -  >> "Host: 122.51.238.114:8861[\r][\n]"
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-25 19:50:48.792 [Thread-20] DEBUG org.apache.http.wire -  >> "User-Agent: Java-EurekaClient/v1.9.13[\r][\n]"
+2020-02-25 19:50:48.793 [Thread-20] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2020-02-25 19:50:48.793 [Thread-20] DEBUG org.apache.http.headers - >> DELETE /eureka/apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863 HTTP/1.1
+2020-02-25 19:50:48.793 [Thread-20] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Name: DefaultClient
+2020-02-25 19:50:48.793 [Thread-20] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Version: 1.4
+2020-02-25 19:50:48.793 [Thread-20] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Id: 192.168.1.8
+2020-02-25 19:50:48.793 [Thread-20] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip
+2020-02-25 19:50:48.793 [Thread-20] DEBUG org.apache.http.headers - >> Host: 122.51.238.114:8861
+2020-02-25 19:50:48.793 [Thread-20] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2020-02-25 19:50:48.793 [Thread-20] DEBUG org.apache.http.headers - >> User-Agent: Java-EurekaClient/v1.9.13
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.wire -  << "Content-Type: application/xml[\r][\n]"
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.wire -  << "Content-Length: 0[\r][\n]"
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.wire -  << "Date: Tue, 25 Feb 2020 11:50:47 GMT[\r][\n]"
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.wire -  << "Keep-Alive: timeout=60[\r][\n]"
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.headers - << HTTP/1.1 200 
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.headers - << Content-Type: application/xml
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.headers - << Content-Length: 0
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.headers - << Date: Tue, 25 Feb 2020 11:50:47 GMT
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.headers - << Keep-Alive: timeout=60
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.headers - << Connection: keep-alive
+2020-02-25 19:50:48.801 [Thread-20] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive for 60000 MILLISECONDS
+2020-02-25 19:50:48.802 [Thread-20] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Released connection is reusable.
+2020-02-25 19:50:48.802 [Thread-20] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Releasing connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 19:50:48.802 [Thread-20] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Pooling connection [{}->http://122.51.238.114:8861][null]; keep alive for 60000 MILLISECONDS
+2020-02-25 19:50:48.802 [Thread-20] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Notifying no-one, there are no waiting threads
+2020-02-25 19:50:48.802 [Thread-20] DEBUG c.n.d.s.t.jersey.AbstractJerseyEurekaHttpClient - Jersey HTTP DELETE http://122.51.238.114:8861/eureka//apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863; statusCode=200
+2020-02-25 19:50:48.809 [Thread-20] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Closing connections idle longer than 0 SECONDS
+2020-02-25 19:50:48.809 [Thread-20] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Closing connections idle longer than 0 SECONDS
+2020-02-25 19:50:48.809 [Thread-20] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Closing connection last used @ Tue Feb 25 19:48:56 CST 2020
+2020-02-25 19:50:48.809 [Thread-20] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Deleting connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 19:50:48.810 [Thread-20] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53770<->122.51.238.114:8861 closed
+2020-02-25 19:50:48.810 [Thread-20] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Closing connection last used @ Tue Feb 25 19:50:48 CST 2020
+2020-02-25 19:50:48.810 [Thread-20] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Deleting connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 19:50:48.811 [Thread-20] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:53776<->122.51.238.114:8861 closed
+2020-02-25 19:50:48.813 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_4_, is fetching remote regions? false 
+2020-02-25 19:50:49.471 [Thread-20] DEBUG o.springframework.boot.devtools.restart.Restarter - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5727a6df
+2020-02-25 19:50:49.471 [Thread-20] DEBUG o.springframework.boot.devtools.restart.Restarter - Starting application org.smartwork.SmartworkApplication with URLs [file:/C:/software/workspace/smartwork/smartwork_gateway/gateway-provider/target/classes/, file:/C:/software/workspace/smartwork/smartwork_gateway/gateway-config/target/classes/]
+2020-02-25 20:34:05.742 [File Watcher] DEBUG o.springframework.boot.devtools.restart.Restarter - Restarting application
+2020-02-25 20:34:05.743 [Thread-25] DEBUG o.springframework.boot.devtools.restart.Restarter - Stopping application
+2020-02-25 20:34:05.744 [Thread-25] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1eb6c6ed, started on Tue Feb 25 20:32:24 CST 2020
+2020-02-25 20:34:05.745 [Thread-25] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b575e78, started on Tue Feb 25 20:32:25 CST 2020, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1eb6c6ed
+2020-02-25 20:34:05.746 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG com.netflix.discovery.InstanceInfoReplicator - Executing on-demand update of local InstanceInfo
+2020-02-25 20:34:05.746 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG com.netflix.discovery.InstanceInfoReplicator - Canceling the latest scheduled update, it will be rescheduled at the end of on demand update
+2020-02-25 20:34:05.747 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Get connection: {}->http://122.51.238.114:8861, timeout = 5000
+2020-02-25 20:34:05.747 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - [{}->http://122.51.238.114:8861] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+2020-02-25 20:34:05.747 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Getting free connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 20:34:05.747 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+2020-02-25 20:34:05.748 [Thread-25] DEBUG o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2020-02-25 20:34:05.749 [Thread-25] DEBUG reactor.core.publisher.Hooks - Reset onEachOperator: org.springframework.cloud.sleuth.instrument.reactor.TraceReactorAutoConfiguration$TraceReactorConfiguration
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.a.h.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG o.a.h.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /eureka/apps/SMARTWORK-GETEWAY HTTP/1.1
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "POST /eureka/apps/SMARTWORK-GETEWAY HTTP/1.1[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "Accept: application/json[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Id: 192.168.1.8[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "Transfer-Encoding: chunked[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "Host: 122.51.238.114:8861[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "User-Agent: Java-EurekaClient/v1.9.13[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - >> POST /eureka/apps/SMARTWORK-GETEWAY HTTP/1.1
+2020-02-25 20:34:05.749 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - >> Content-Type: application/json
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - >> Accept: application/json
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Name: DefaultClient
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Version: 1.4
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Id: 192.168.1.8
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - >> Transfer-Encoding: chunked
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - >> Host: 122.51.238.114:8861
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - >> User-Agent: Java-EurekaClient/v1.9.13
+2020-02-25 20:34:05.750 [Thread-25] DEBUG o.s.d.redis.listener.RedisMessageListenerContainer - Stopped RedisMessageListenerContainer
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "17d[\r][\n]"
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "{"instance":{"instanceId":"DESKTOP-5DUHFCD:smartwork-geteway:8863","hostName":"DESKTOP-5DUHFCD","app":"SMARTWORK-GETEWAY","ipAddr":"192.168.1.8","status":"DOWN","overriddenStatus":"UNKNOWN","port":{"$":8863,"@enabled":"true"},"securePort":{"$":443,"@enabled":"false"},"countryId":1,"dataCenterInfo":{"@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo","name":"MyOwn"}"
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "9c[\r][\n]"
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> ","leaseInfo":{"renewalIntervalInSecs":5,"durationInSecs":15,"registrationTimestamp":0,"lastRenewalTimestamp":0,"evictionTimestamp":0,"serviceUpTimestamp":0}"
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "26[\r][\n]"
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> ","metadata":{"management.port":"8863"}"
+2020-02-25 20:34:05.750 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Archaius' from the JMX domain
+2020-02-25 20:34:05.751 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "166[\r][\n]"
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Beans' from the JMX domain
+2020-02-25 20:34:05.751 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> ","homePageUrl":"http://DESKTOP-5DUHFCD:8863/","statusPageUrl":"http://DESKTOP-5DUHFCD:8863/actuator/info","healthCheckUrl":"http://DESKTOP-5DUHFCD:8863/actuator/health","vipAddress":"smartwork-geteway","secureVipAddress":"smartwork-geteway","isCoordinatingDiscoveryServer":"false","lastUpdatedTimestamp":"1582633954256","lastDirtyTimestamp":"1582634045746"}}"
+2020-02-25 20:34:05.751 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2020-02-25 20:34:05.751 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "0[\r][\n]"
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Caches' from the JMX domain
+2020-02-25 20:34:05.751 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Health' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Info' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Conditions' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Configprops' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Env' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Loggers' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Threaddump' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Metrics' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Scheduledtasks' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Mappings' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Refresh' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Features' from the JMX domain
+2020-02-25 20:34:05.751 [Thread-25] DEBUG o.s.boot.actuate.endpoint.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Service-registry' from the JMX domain
+2020-02-25 20:34:05.753 [Thread-25] DEBUG o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2020-02-25 20:34:05.754 [Thread-25] DEBUG o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2020-02-25 20:34:05.764 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  << "HTTP/1.1 204 [\r][\n]"
+2020-02-25 20:34:05.764 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+2020-02-25 20:34:05.764 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  << "Date: Tue, 25 Feb 2020 12:34:05 GMT[\r][\n]"
+2020-02-25 20:34:05.764 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  << "Keep-Alive: timeout=60[\r][\n]"
+2020-02-25 20:34:05.764 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2020-02-25 20:34:05.764 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2020-02-25 20:34:05.764 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 204 
+2020-02-25 20:34:05.765 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - << HTTP/1.1 204 
+2020-02-25 20:34:05.765 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - << Content-Type: application/json
+2020-02-25 20:34:05.765 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - << Date: Tue, 25 Feb 2020 12:34:05 GMT
+2020-02-25 20:34:05.765 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - << Keep-Alive: timeout=60
+2020-02-25 20:34:05.765 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.headers - << Connection: keep-alive
+2020-02-25 20:34:05.765 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive for 60000 MILLISECONDS
+2020-02-25 20:34:05.765 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Released connection is reusable.
+2020-02-25 20:34:05.765 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Releasing connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 20:34:05.765 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Pooling connection [{}->http://122.51.238.114:8861][null]; keep alive for 60000 MILLISECONDS
+2020-02-25 20:34:05.765 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Notifying no-one, there are no waiting threads
+2020-02-25 20:34:05.765 [DiscoveryClient-InstanceInfoReplicator-0] DEBUG c.n.d.s.t.jersey.AbstractJerseyEurekaHttpClient - Jersey HTTP POST http://122.51.238.114:8861/eureka//apps/SMARTWORK-GETEWAY with instance DESKTOP-5DUHFCD:smartwork-geteway:8863; statusCode=204
+2020-02-25 20:34:05.938 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Get connection: {}->http://122.51.238.114:8861, timeout = 5000
+2020-02-25 20:34:05.938 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - [{}->http://122.51.238.114:8861] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+2020-02-25 20:34:05.938 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Getting free connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 20:34:05.938 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+2020-02-25 20:34:05.940 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2020-02-25 20:34:05.940 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2020-02-25 20:34:05.940 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG o.a.h.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2020-02-25 20:34:05.940 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG o.a.h.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2020-02-25 20:34:05.940 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2020-02-25 20:34:05.940 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /eureka/apps/delta HTTP/1.1
+2020-02-25 20:34:05.940 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+2020-02-25 20:34:05.940 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  >> "Accept: application/json[\r][\n]"
+2020-02-25 20:34:05.940 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Id: 192.168.1.8[\r][\n]"
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip[\r][\n]"
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  >> "Host: 122.51.238.114:8861[\r][\n]"
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  >> "User-Agent: Java-EurekaClient/v1.9.13[\r][\n]"
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - >> GET /eureka/apps/delta HTTP/1.1
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - >> Accept: application/json
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Name: DefaultClient
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Version: 1.4
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Id: 192.168.1.8
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - >> Host: 122.51.238.114:8861
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2020-02-25 20:34:05.941 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - >> User-Agent: Java-EurekaClient/v1.9.13
+2020-02-25 20:34:05.950 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-25 20:34:05.950 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+2020-02-25 20:34:05.950 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+2020-02-25 20:34:05.950 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "Content-Length: 551[\r][\n]"
+2020-02-25 20:34:05.950 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "Date: Tue, 25 Feb 2020 12:34:05 GMT[\r][\n]"
+2020-02-25 20:34:05.950 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "Keep-Alive: timeout=60[\r][\n]"
+2020-02-25 20:34:05.950 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2020-02-25 20:34:05.950 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2020-02-25 20:34:05.950 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 
+2020-02-25 20:34:05.950 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - << HTTP/1.1 200 
+2020-02-25 20:34:05.950 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+2020-02-25 20:34:05.951 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - << Content-Type: application/json
+2020-02-25 20:34:05.951 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - << Content-Length: 551
+2020-02-25 20:34:05.951 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - << Date: Tue, 25 Feb 2020 12:34:05 GMT
+2020-02-25 20:34:05.951 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - << Keep-Alive: timeout=60
+2020-02-25 20:34:05.951 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.headers - << Connection: keep-alive
+2020-02-25 20:34:05.951 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive for 60000 MILLISECONDS
+2020-02-25 20:34:05.951 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x95]S[0xdb][0x8e][0xda]0[0x10][0xfd][0x17]k[0x1f]!$[0xcb][0xa5][0xd9]<-"[0xb4]Eh[0x1][0x1])[0xaa][0xaa][\n]"
+2020-02-25 20:34:05.951 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "[0xb9][0xce]@[0xac]M[0xec][0xc8]v[0xa0][0x11][0xe2][0xdf]w[0x9c]4[0xb4]P[0xaa][0xb6][0xe2][0x1]<s[0xe6]v[0xce][0xe1]Dh[0x9e][0xa7][0x9c]Q[0xc3][0xa5][0xd0]$8[0x91][0x3](mo[0xb7]1[0xa4][0x86][0x92][0x80]t{[0x9e]OZ[0x16][0x88][0xc1][0x84][0xea][0x84][0xc9][0x18]0[0x1e]-[0xb6][0xbd]m[0x9d]h:[0x90][0xe0][0xcb][0x89][0x8][0x9a][0xd9][0xf4][0xea]e[0xb8]\o[0xe6][0xcb]i[0xfb][0xc3]x=[0xde][0xc]?#[0x94][0xb]m[0xa8]`P[0xe1][0x9a][0xc7]$Ft8^M[0xd7][0xf3]E[0xbb][0x1f]F[0x1f][0xdf][0x8f][0xc2]@gT[0x99][0xa3]T[0xaf][0xed]=[0x18]8[0xd2]2[0xf0][0xfd]A[0x17][$R[0x9b]Y=[0xe1][0xa6][0xa6]^[0xe5]O[0x93][0xf3]a[0x1c]+LzO[0x8f][0x8e]7[0xf0][0x1d][0xcf][0xb1]G[0xe1][0x6][0xa6][0xd0][0xd5]1[0xf8][0x92]x[0xbc][0xe2]q[0xc]bu[0x89][0xcf][0xa6][0xb3][0xf9]f[0x86][0xc9]\*c[0x9]z [0xd5]*-[0xf2][0xc][0x82]~K[0xc1]noT[0x1][0xe4][0x8c][0xed][0x80][0x15][\n]"
+2020-02-25 20:34:05.951 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "[0x16]?[0x91][0xbd][0xde]5pGS]![0x99],[0x84]Q[0xa5][0xbd][0xdd]k[0x91][0x98][0x1a]:[0x2]a@M[0xc4]N[0xda][0xda]g[0x96]Rm[0x17]`2s[0x4][0x98]][0xca][0xbf];x[0x1e][0xc7][0xbc]3i[0x98][0xc3][0xc7]C[0x8];Z[0xa4]&[0xbc]n[0xd1]jdx)[0xe7]Ga'[0xa6]@54[0xed][0x15][0x8]$5[0x9d]X[0xfc][0xc1]~[0xaf][0x80][0xe1][0xb4]>[0xae]R[0xa8]J[0xca]&[0xe4]aL[0xc1][0x9e]kS[0xc7][0xd7]<[0x3][0x9c][0x9e][0xe5]6[0xe5]?[0xe][0xba][0xdd][0xa7]~[0xbf][0xef][0xfa]8[0x80]j[0xb3][0xac][0xfb][0xde][0x1]![0xaa][0xe7][0xb6][0x8][0x1c]8[0xbb]i[0xe3]Z[0xde][0x14][0xc6]![0xca][0xef]vw][0x17][0xf7][0xcf][0xc0]P[0xcb][0x93]]?[0xa3][0x82][0xee]![0xc3]s[0x9d]Z[0x16]R[0xb9][0xe3]l[0xed][0x91][0xc1][0x2]s[0x91]J1[0x9a][0x18][0x93][0x7][0x9d][0xce][0xad][0xb9],[0xb8]sQ[0xff][0xdf][0xe0][0x94][0x99][0x82][0x1a][0xa9]:[0xbc][0xa6]7[0x1][0x9a][0x9a]d[0x94][0x0]{[0xfd][0x8f][0xe2][0xba][\n]"
+2020-02-25 20:34:05.951 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "[0xcb][0xf][0xb5]![0xa1][0xd2][0xf8]7[0xb3][0x93][0xc6]J[0x9f][0xfe][0x6][0xe3]z$[0xa5][0x8a][0xb9]@q[0xc4]>[0xe4][0x9a]Y[0x13][0x97]+$[0x14][0xd4][0xc5]p[0xb5]8Q[0x8e][0xfc]A[0xfc][0xb][0xc7][0xe4]J[0xc2][0x1f][0xb0][0x90]+S[0xde][0x7][0xbd]s[0xed]_[0x90][0xd6][\n]"
+2020-02-25 20:34:05.951 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG org.apache.http.wire -  << "[0x96][0xb9][0xf5][0xd7]0[0xc][0xc7]!9[0xc5][0xcf][0xf9][\r][0xbd][0xc2]P[0xd3]N[0x4][0x0][0x0]"
+2020-02-25 20:34:05.952 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Released connection is reusable.
+2020-02-25 20:34:05.952 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Releasing connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 20:34:05.952 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Pooling connection [{}->http://122.51.238.114:8861][null]; keep alive for 60000 MILLISECONDS
+2020-02-25 20:34:05.952 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Notifying no-one, there are no waiting threads
+2020-02-25 20:34:05.952 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.util.DeserializerStringCache - clearing global-level cache with size 1
+2020-02-25 20:34:05.952 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.util.DeserializerStringCache - clearing app-level serialization cache with size 9
+2020-02-25 20:34:05.952 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG c.n.d.s.t.jersey.AbstractJerseyEurekaHttpClient - Jersey HTTP GET http://122.51.238.114:8861/eureka//apps/delta?; statusCode=200
+2020-02-25 20:34:05.952 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_4_
+2020-02-25 20:34:05.952 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.DiscoveryClient - Added instance DESKTOP-5DUHFCD:smartwork-geteway:8863 to the existing apps in region null
+2020-02-25 20:34:05.952 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 1
+2020-02-25 20:34:05.953 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 4
+2020-02-25 20:34:05.953 [DiscoveryClient-CacheRefreshExecutor-0] DEBUG com.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_4_, is fetching remote regions? false 
+2020-02-25 20:34:06.126 [DiscoveryClient-HeartbeatExecutor-0] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Get connection: {}->http://122.51.238.114:8861, timeout = 5000
+2020-02-25 20:34:06.127 [DiscoveryClient-HeartbeatExecutor-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - [{}->http://122.51.238.114:8861] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+2020-02-25 20:34:06.127 [DiscoveryClient-HeartbeatExecutor-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Getting free connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 20:34:06.127 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG o.a.h.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG o.a.h.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /eureka/apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863?status=DOWN&lastDirtyTimestamp=1582634045746 HTTP/1.1
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  >> "PUT /eureka/apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863?status=DOWN&lastDirtyTimestamp=1582634045746 HTTP/1.1[\r][\n]"
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Id: 192.168.1.8[\r][\n]"
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip[\r][\n]"
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  >> "Content-Length: 0[\r][\n]"
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  >> "Host: 122.51.238.114:8861[\r][\n]"
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  >> "User-Agent: Java-EurekaClient/v1.9.13[\r][\n]"
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - >> PUT /eureka/apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863?status=DOWN&lastDirtyTimestamp=1582634045746 HTTP/1.1
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Name: DefaultClient
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Version: 1.4
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Id: 192.168.1.8
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - >> Content-Length: 0
+2020-02-25 20:34:06.129 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - >> Host: 122.51.238.114:8861
+2020-02-25 20:34:06.130 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2020-02-25 20:34:06.130 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - >> User-Agent: Java-EurekaClient/v1.9.13
+2020-02-25 20:34:06.138 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-25 20:34:06.138 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  << "Content-Type: application/xml[\r][\n]"
+2020-02-25 20:34:06.138 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  << "Content-Length: 0[\r][\n]"
+2020-02-25 20:34:06.138 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  << "Date: Tue, 25 Feb 2020 12:34:05 GMT[\r][\n]"
+2020-02-25 20:34:06.138 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  << "Keep-Alive: timeout=60[\r][\n]"
+2020-02-25 20:34:06.138 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2020-02-25 20:34:06.138 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2020-02-25 20:34:06.138 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - << HTTP/1.1 200 
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - << Content-Type: application/xml
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - << Content-Length: 0
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - << Date: Tue, 25 Feb 2020 12:34:05 GMT
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - << Keep-Alive: timeout=60
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.headers - << Connection: keep-alive
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive for 60000 MILLISECONDS
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Released connection is reusable.
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Releasing connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Pooling connection [{}->http://122.51.238.114:8861][null]; keep alive for 60000 MILLISECONDS
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Notifying no-one, there are no waiting threads
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG c.n.d.s.t.jersey.AbstractJerseyEurekaHttpClient - Jersey HTTP PUT http://122.51.238.114:8861/eureka//apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863; statusCode=200
+2020-02-25 20:34:06.139 [DiscoveryClient-HeartbeatExecutor-0] DEBUG com.netflix.discovery.DiscoveryClient - DiscoveryClient_SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863 - Heartbeat status: 200
+2020-02-25 20:34:06.284 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@5f088096}] DEBUG o.s.c.s.z.s.ZipkinRestTemplateSenderConfiguration - The port in Zipkin's URL [http://122.51.238.114:8862] is provided - that means that load balancing will not take place
+2020-02-25 20:34:06.284 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@5f088096}] DEBUG o.s.c.s.zipkin2.sender.ZipkinRestTemplateWrapper - HTTP POST http://122.51.238.114:8862/api/v2/spans
+2020-02-25 20:34:06.284 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@5f088096}] DEBUG o.s.c.s.zipkin2.sender.ZipkinRestTemplateWrapper - Accept=[text/plain, application/json, application/*+json, */*]
+2020-02-25 20:34:06.284 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@5f088096}] DEBUG o.s.c.s.zipkin2.sender.ZipkinRestTemplateWrapper - Writing [[B@4e72c5] as "application/json"
+2020-02-25 20:34:06.302 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@5f088096}] DEBUG o.s.c.s.zipkin2.sender.ZipkinRestTemplateWrapper - Response 202 ACCEPTED
+2020-02-25 20:34:06.305 [Thread-25] DEBUG org.apache.shiro.spring.LifecycleBeanPostProcessor - Destroying bean [securityManager]...
+2020-02-25 20:34:06.317 [Thread-25] DEBUG io.lettuce.core.RedisClient - Initiate shutdown (100, 100, MILLISECONDS)
+2020-02-25 20:34:06.331 [Thread-25] DEBUG i.l.core.resource.DefaultEventLoopGroupProvider - Release executor io.netty.channel.nio.NioEventLoopGroup@58c3976b
+2020-02-25 20:34:06.332 [lettuce-nioEventLoop-4-1] DEBUG io.netty.buffer.PoolThreadCache - Freed 1 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2020-02-25 20:34:06.436 [Thread-25] DEBUG io.lettuce.core.resource.DefaultClientResources - Initiate shutdown (0, 2, SECONDS)
+2020-02-25 20:34:06.437 [Thread-25] DEBUG i.l.core.resource.DefaultEventLoopGroupProvider - Initiate shutdown (0, 2, SECONDS)
+2020-02-25 20:34:06.442 [Thread-25] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Closing FeignContext-usercenter, started on Tue Feb 25 20:32:27 CST 2020, parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b575e78
+2020-02-25 20:34:06.442 [Thread-25] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2020-02-25 20:34:09.454 [Thread-25] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Get connection: {}->http://122.51.238.114:8861, timeout = 5000
+2020-02-25 20:34:09.454 [Thread-25] DEBUG com.netflix.discovery.shared.NamedConnectionPool - [{}->http://122.51.238.114:8861] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+2020-02-25 20:34:09.454 [Thread-25] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Getting free connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 20:34:09.454 [Thread-25] DEBUG org.apache.http.impl.client.DefaultHttpClient - Stale connection check
+2020-02-25 20:34:09.458 [Thread-25] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2020-02-25 20:34:09.458 [Thread-25] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2020-02-25 20:34:09.459 [Thread-25] DEBUG o.a.h.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2020-02-25 20:34:09.459 [Thread-25] DEBUG o.a.h.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /eureka/apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863 HTTP/1.1
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.wire -  >> "DELETE /eureka/apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863 HTTP/1.1[\r][\n]"
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.wire -  >> "DiscoveryIdentity-Id: 192.168.1.8[\r][\n]"
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip[\r][\n]"
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.wire -  >> "Host: 122.51.238.114:8861[\r][\n]"
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.wire -  >> "User-Agent: Java-EurekaClient/v1.9.13[\r][\n]"
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.headers - >> DELETE /eureka/apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863 HTTP/1.1
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Name: DefaultClient
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Version: 1.4
+2020-02-25 20:34:09.459 [Thread-25] DEBUG org.apache.http.headers - >> DiscoveryIdentity-Id: 192.168.1.8
+2020-02-25 20:34:09.460 [Thread-25] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip
+2020-02-25 20:34:09.460 [Thread-25] DEBUG org.apache.http.headers - >> Host: 122.51.238.114:8861
+2020-02-25 20:34:09.460 [Thread-25] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2020-02-25 20:34:09.460 [Thread-25] DEBUG org.apache.http.headers - >> User-Agent: Java-EurekaClient/v1.9.13
+2020-02-25 20:34:09.470 [Thread-25] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 [\r][\n]"
+2020-02-25 20:34:09.471 [Thread-25] DEBUG org.apache.http.wire -  << "Content-Type: application/xml[\r][\n]"
+2020-02-25 20:34:09.471 [Thread-25] DEBUG org.apache.http.wire -  << "Content-Length: 0[\r][\n]"
+2020-02-25 20:34:09.471 [Thread-25] DEBUG org.apache.http.wire -  << "Date: Tue, 25 Feb 2020 12:34:08 GMT[\r][\n]"
+2020-02-25 20:34:09.471 [Thread-25] DEBUG org.apache.http.wire -  << "Keep-Alive: timeout=60[\r][\n]"
+2020-02-25 20:34:09.471 [Thread-25] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+2020-02-25 20:34:09.471 [Thread-25] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2020-02-25 20:34:09.471 [Thread-25] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 
+2020-02-25 20:34:09.471 [Thread-25] DEBUG org.apache.http.headers - << HTTP/1.1 200 
+2020-02-25 20:34:09.471 [Thread-25] DEBUG org.apache.http.headers - << Content-Type: application/xml
+2020-02-25 20:34:09.471 [Thread-25] DEBUG org.apache.http.headers - << Content-Length: 0
+2020-02-25 20:34:09.472 [Thread-25] DEBUG org.apache.http.headers - << Date: Tue, 25 Feb 2020 12:34:08 GMT
+2020-02-25 20:34:09.472 [Thread-25] DEBUG org.apache.http.headers - << Keep-Alive: timeout=60
+2020-02-25 20:34:09.472 [Thread-25] DEBUG org.apache.http.headers - << Connection: keep-alive
+2020-02-25 20:34:09.472 [Thread-25] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive for 60000 MILLISECONDS
+2020-02-25 20:34:09.472 [Thread-25] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Released connection is reusable.
+2020-02-25 20:34:09.472 [Thread-25] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Releasing connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 20:34:09.473 [Thread-25] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Pooling connection [{}->http://122.51.238.114:8861][null]; keep alive for 60000 MILLISECONDS
+2020-02-25 20:34:09.473 [Thread-25] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Notifying no-one, there are no waiting threads
+2020-02-25 20:34:09.473 [Thread-25] DEBUG c.n.d.s.t.jersey.AbstractJerseyEurekaHttpClient - Jersey HTTP DELETE http://122.51.238.114:8861/eureka//apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863; statusCode=200
+2020-02-25 20:34:09.496 [Thread-25] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Closing connections idle longer than 0 SECONDS
+2020-02-25 20:34:09.496 [Thread-25] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Closing connections idle longer than 0 SECONDS
+2020-02-25 20:34:09.496 [Thread-25] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Closing connection last used @ Tue Feb 25 20:34:09 CST 2020
+2020-02-25 20:34:09.496 [Thread-25] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Deleting connection [{}->http://122.51.238.114:8861][null]
+2020-02-25 20:34:09.497 [Thread-25] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:54925<->122.51.238.114:8861 closed
+2020-02-25 20:34:10.007 [Thread-25] DEBUG o.springframework.boot.devtools.restart.Restarter - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2c1abe7e
+2020-02-25 20:34:10.007 [Thread-25] DEBUG o.springframework.boot.devtools.restart.Restarter - Starting application org.smartwork.SmartworkApplication with URLs [file:/C:/software/workspace/smartwork/smartwork_gateway/gateway-provider/target/classes/, file:/C:/software/workspace/smartwork/smartwork_gateway/gateway-config/target/classes/]
+2020-02-25 20:50:57.876 [Thread-46] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection org.apache.http.impl.conn.DefaultClientConnection@3ae17d46 closed
+2020-02-25 20:50:57.878 [Thread-46] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection org.apache.http.impl.conn.DefaultClientConnection@3ae17d46 shut down
+2020-02-25 20:50:57.878 [Thread-46] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Released connection is not reusable.
+2020-02-25 20:50:57.878 [Thread-46] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Releasing connection [{}->http://172.17.16.15:8861][null]
+2020-02-25 20:50:57.878 [Thread-46] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection org.apache.http.impl.conn.DefaultClientConnection@3ae17d46 closed
+2020-02-25 20:50:57.878 [Thread-46] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Notifying no-one, there are no waiting threads
+2020-02-25 20:50:57.878 [Thread-46] DEBUG c.n.d.s.t.jersey.AbstractJerseyEurekaHttpClient - Jersey HTTP DELETE http://172.17.16.15:8861/eureka//apps/SMARTWORK-GETEWAY/DESKTOP-5DUHFCD:smartwork-geteway:8863; statusCode=N/A
+2020-02-25 20:50:57.894 [Thread-46] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Closing connections idle longer than 0 SECONDS
+2020-02-25 20:50:57.894 [Thread-46] DEBUG com.netflix.discovery.shared.NamedConnectionPool - Closing connections idle longer than 0 SECONDS
+2020-02-25 20:50:58.590 [Finalizer] DEBUG c.n.discovery.shared.MonitoredConnectionManager - Shutting down
+2020-02-25 20:50:58.627 [Thread-46] DEBUG o.springframework.boot.devtools.restart.Restarter - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@436097dd
+2020-02-25 20:50:58.627 [Thread-46] DEBUG o.springframework.boot.devtools.restart.Restarter - Starting application org.smartwork.SmartworkApplication with URLs [file:/C:/software/workspace/smartwork/smartwork_gateway/gateway-provider/target/classes/, file:/C:/software/workspace/smartwork/smartwork_gateway/gateway-config/target/classes/]
