@@ -1,0 +1,6 @@
+org\smartwork\config\realm\ExtRealm.class
+org\smartwork\config\ShiroConfig.class
+org\smartwork\config\filter\JwtFilter.class
+org\smartwork\config\token\JwtToken.class
+org\smartwork\config\WebMvcConfiguration.class
+org\smartwork\config\interceptor\ReqInterceptor.class

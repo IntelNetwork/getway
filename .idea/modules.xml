@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gateway-config/gateway-config.iml" filepath="$PROJECT_DIR$/gateway-config/gateway-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-provider/gateway-provider.iml" filepath="$PROJECT_DIR$/gateway-provider/gateway-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smartwork_gateway.iml" filepath="$PROJECT_DIR$/smartwork_gateway.iml" />
+    </modules>
+  </component>
+</project>

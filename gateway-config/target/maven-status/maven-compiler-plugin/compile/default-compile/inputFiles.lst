@@ -1,0 +1,6 @@
+C:\software\workspace\smartwork\smartwork_gateway\gateway-config\src\main\java\org\smartwork\config\WebMvcConfiguration.java
+C:\software\workspace\smartwork\smartwork_gateway\gateway-config\src\main\java\org\smartwork\config\token\JwtToken.java
+C:\software\workspace\smartwork\smartwork_gateway\gateway-config\src\main\java\org\smartwork\config\ShiroConfig.java
+C:\software\workspace\smartwork\smartwork_gateway\gateway-config\src\main\java\org\smartwork\config\realm\ExtRealm.java
+C:\software\workspace\smartwork\smartwork_gateway\gateway-config\src\main\java\org\smartwork\config\filter\JwtFilter.java
+C:\software\workspace\smartwork\smartwork_gateway\gateway-config\src\main\java\org\smartwork\config\interceptor\ReqInterceptor.java
