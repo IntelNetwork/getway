@@ -18,6 +18,7 @@ import org.forbes.comm.model.SysUser;
 import org.forbes.comm.utils.ConvertUtils;
 import org.forbes.comm.utils.JwtUtil;
 import org.forbes.comm.vo.Result;
+import org.smartwork.config.token.JwtToken;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMethod;
 import com.alibaba.fastjson.JSON;

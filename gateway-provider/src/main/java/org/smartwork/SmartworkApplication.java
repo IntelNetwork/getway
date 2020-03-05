@@ -15,7 +15,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class SmartworkApplication {
 
     public static void main(String[] args) {
-        System.setProperty(CommonConstant.PROVILES_CODE, "prod");
         SpringApplication.run(SmartworkApplication.class, args);
     }
 }

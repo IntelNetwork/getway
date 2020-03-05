@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>smartwork_gateway</artifactId>
-        <groupId>org</groupId>
+        <groupId>org.smartwork</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>gateway-provider</artifactId>
     <dependencies>
         <dependency>
-            <groupId>org</groupId>
+            <groupId>org.smartwork</groupId>
             <artifactId>gateway-config</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
@@ -22,7 +22,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-
                     <mainClass>org.smartwork.SmartworkApplication</mainClass>
                 </configuration>
                 <executions>
