@@ -13,7 +13,7 @@
         <version>2.2.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.smartwork</groupId>
+    <groupId>org</groupId>
     <artifactId>smartwork_gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>smartwork_gateway</name>
