@@ -44,15 +44,43 @@ public class ShiroConfig implements Ordered {
 		// 拦截器
 		Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
 		// 配置不会被拦截的链接 顺序判断
-		filterChainDefinitionMap.put("/**/sys/login", "anon"); //登录接口排除
-		filterChainDefinitionMap.put("/**/sys/common/preview", "anon"); //检验接口排除
-		filterChainDefinitionMap.put("/**/sys/common/download", "anon"); //检验接口排除
-		filterChainDefinitionMap.put("/**/api-news/*", "anon"); //新闻接口排除
-		filterChainDefinitionMap.put("/**/api-news-type/*", "anon"); //新闻类型接口排除
-		filterChainDefinitionMap.put("/**/auth/2step-code", "anon");//登录验证码
-		filterChainDefinitionMap.put("/**/exportXls", "anon"); //导出接口
-		filterChainDefinitionMap.put("/**/importExcel", "anon"); //导入接口
-		filterChainDefinitionMap.put("/**/sys/common/view/**", "anon");//图片预览不限制token
+		//登录接口排除
+		filterChainDefinitionMap.put("/**/sys/login", "anon");
+		//检验接口排除
+		filterChainDefinitionMap.put("/**/sys/common/preview", "anon");
+		//检验接口排除
+		filterChainDefinitionMap.put("/**/sys/common/download", "anon");
+		//新闻接口排除
+		filterChainDefinitionMap.put("/**/api-news/*", "anon");
+		//新闻类型接口排除
+		filterChainDefinitionMap.put("/**/api-news-type/*", "anon");
+		//登录验证码
+		filterChainDefinitionMap.put("/**/auth/2step-code", "anon");
+		//导出接口
+		filterChainDefinitionMap.put("/**/exportXls", "anon");
+		//导入接口
+		filterChainDefinitionMap.put("/**/importExcel", "anon");
+		//图片预览不限制token
+		filterChainDefinitionMap.put("/**/sys/common/view/**", "anon");
+		//智工任务大厅
+		//filterChainDefinitionMap.put("/**/api/v1.0/task/list/**", "anon");
+		//智工任务大厅查看最新成交动态
+		//filterChainDefinitionMap.put("/**/api/v1.0/task/order/**", "anon");
+		//任务总数
+		//filterChainDefinitionMap.put("/**/api/v1.0/task/all-count/**", "anon");
+		//行业类型查询
+		//filterChainDefinitionMap.put("/**/api/v1.0/zgtindtype/lists/**", "anon");
+		//任务类型查询
+		//filterChainDefinitionMap.put("/**/api/v1.0/zgtasktype/lists/**", "anon");
+		//参与任务竞标人员查询
+		//filterChainDefinitionMap.put("/**/api/v1.0/taskmembers/list/**", "anon");
+		//任务
+		//filterChainDefinitionMap.put("/**/api/v1.0/taskdetail/detail/**", "anon");
+		//任务推荐
+		//filterChainDefinitionMap.put("/**/api/v1.0/recommend/list/**", "anon");
+		//暂时取消token认证,方便调接口
+		filterChainDefinitionMap.put("/**/api/v1.0/*", "anon");
+
 		filterChainDefinitionMap.put("/**/*.js", "anon");
 		filterChainDefinitionMap.put("/**/*.css", "anon");
 		filterChainDefinitionMap.put("/**/*.html", "anon");
