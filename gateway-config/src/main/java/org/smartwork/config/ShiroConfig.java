@@ -29,57 +29,85 @@ import org.springframework.core.annotation.Order;
 @Configuration
 @Order(value = Integer.MIN_VALUE)
 public class ShiroConfig implements Ordered {
+	
+	/**
+	 * Filter Chain定义说明 
+	 * 
+	 * 1、一个URL可以配置多个Filter，使用逗号分隔
+	 * 2、当设置多个过滤器时，全部验证通过，才视为通过
+	 * 3、部分过滤器可指定参数，如perms，roles
+	 */
+	@Bean("shiroFilter")
+	public ShiroFilterFactoryBean shiroFilter(SecurityManager securityManager) {
+		ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
+		shiroFilterFactoryBean.setSecurityManager(securityManager);
+		// 拦截器
+		Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
+		// 配置不会被拦截的链接 顺序判断
+		//登录接口排除
+		filterChainDefinitionMap.put("/**/sys/login", "anon");
+		//检验接口排除
+		filterChainDefinitionMap.put("/**/sys/common/preview", "anon");
+		//检验接口排除
+		filterChainDefinitionMap.put("/**/sys/common/download", "anon");
+		//新闻接口排除
+		filterChainDefinitionMap.put("/**/api-news/*", "anon");
+		//新闻类型接口排除
+		filterChainDefinitionMap.put("/**/api-news-type/*", "anon");
+		//登录验证码
+		filterChainDefinitionMap.put("/**/auth/2step-code", "anon");
+		//导出接口
+		filterChainDefinitionMap.put("/**/exportXls", "anon");
+		//导入接口
+		filterChainDefinitionMap.put("/**/importExcel", "anon");
+		//图片预览不限制token
+		filterChainDefinitionMap.put("/**/sys/common/view/**", "anon");
+		//智工任务大厅
+		//filterChainDefinitionMap.put("/**/api/v1.0/task/list/**", "anon");
+		//智工任务大厅查看最新成交动态
+		//filterChainDefinitionMap.put("/**/api/v1.0/task/order/**", "anon");
+		//任务总数
+		//filterChainDefinitionMap.put("/**/api/v1.0/task/all-count/**", "anon");
+		//行业类型查询
+		//filterChainDefinitionMap.put("/**/api/v1.0/zgtindtype/lists/**", "anon");
+		//任务类型查询
+		//filterChainDefinitionMap.put("/**/api/v1.0/zgtasktype/lists/**", "anon");
+		//参与任务竞标人员查询
+		//filterChainDefinitionMap.put("/**/api/v1.0/taskmembers/list/**", "anon");
+		//任务
+		//filterChainDefinitionMap.put("/**/api/v1.0/taskdetail/detail/**", "anon");
+		//任务推荐
+		//filterChainDefinitionMap.put("/**/api/v1.0/recommend/list/**", "anon");
+		//暂时取消token认证,方便调接口
+		filterChainDefinitionMap.put("/**/api/v1.0/*", "anon");
 
-    /**
-     * Filter Chain定义说明
-     * <p>
-     * 1、一个URL可以配置多个Filter，使用逗号分隔
-     * 2、当设置多个过滤器时，全部验证通过，才视为通过
-     * 3、部分过滤器可指定参数，如perms，roles
-     */
-    @Bean("shiroFilter")
-    public ShiroFilterFactoryBean shiroFilter(SecurityManager securityManager) {
-        ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
-        shiroFilterFactoryBean.setSecurityManager(securityManager);
-        // 拦截器
-        Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
-        // 配置不会被拦截的链接 顺序判断
-        filterChainDefinitionMap.put("/**/sys/login", "anon"); //登录接口排除
-        filterChainDefinitionMap.put("/**/sys/common/preview", "anon"); //检验接口排除
-        filterChainDefinitionMap.put("/**/sys/common/download", "anon"); //检验接口排除
-        filterChainDefinitionMap.put("/**/api-news/*", "anon"); //新闻接口排除
-        filterChainDefinitionMap.put("/**/api-news-type/*", "anon"); //新闻类型接口排除
-        filterChainDefinitionMap.put("/**/auth/2step-code", "anon");//登录验证码
-        filterChainDefinitionMap.put("/**/exportXls", "anon"); //导出接口
-        filterChainDefinitionMap.put("/**/importExcel", "anon"); //导入接口
-        filterChainDefinitionMap.put("/**/sys/common/view/**", "anon");//图片预览不限制token
-        filterChainDefinitionMap.put("/**/*.js", "anon");
-        filterChainDefinitionMap.put("/**/*.css", "anon");
-        filterChainDefinitionMap.put("/**/*.html", "anon");
-        filterChainDefinitionMap.put("/**/*.svg", "anon");
-        filterChainDefinitionMap.put("/**/*.jpg", "anon");
-        filterChainDefinitionMap.put("/**/*.png", "anon");
-        filterChainDefinitionMap.put("/**/*.ico", "anon");
-        filterChainDefinitionMap.put("/druid/**", "anon");
-        filterChainDefinitionMap.put("/docs.html", "anon");
-        filterChainDefinitionMap.put("/swagger**/**", "anon");
-        filterChainDefinitionMap.put("/webjars/**", "anon");
-        filterChainDefinitionMap.put("/v2/**", "anon");
-        //性能监控
-        filterChainDefinitionMap.put("/actuator/metrics/**", "anon");
-        filterChainDefinitionMap.put("/actuator/httptrace/**", "anon");
-        filterChainDefinitionMap.put("/redis/**", "anon");
-        // 添加推单人的过滤器并且取名为jwt
-        Map<String, Filter> filterMap = new HashMap<String, Filter>(2);
-        filterMap.put("jwt", new JwtFilter());
-        shiroFilterFactoryBean.setFilters(filterMap);
-        // <!-- 过滤链定义，从上向下顺序执行，一般将/**放在最为下边
-        filterChainDefinitionMap.put("/**", "jwt");
-        // 未授权界面;
-        shiroFilterFactoryBean.setUnauthorizedUrl("/403");
-        shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
-        return shiroFilterFactoryBean;
-    }
+		filterChainDefinitionMap.put("/**/*.js", "anon");
+		filterChainDefinitionMap.put("/**/*.css", "anon");
+		filterChainDefinitionMap.put("/**/*.html", "anon");
+		filterChainDefinitionMap.put("/**/*.svg", "anon");
+		filterChainDefinitionMap.put("/**/*.jpg", "anon");
+		filterChainDefinitionMap.put("/**/*.png", "anon");
+		filterChainDefinitionMap.put("/**/*.ico", "anon");
+		filterChainDefinitionMap.put("/druid/**", "anon");
+		filterChainDefinitionMap.put("/docs.html", "anon");
+		filterChainDefinitionMap.put("/swagger**/**", "anon");
+		filterChainDefinitionMap.put("/webjars/**", "anon");
+		filterChainDefinitionMap.put("/v2/**", "anon");
+		//性能监控
+		filterChainDefinitionMap.put("/actuator/metrics/**", "anon");
+		filterChainDefinitionMap.put("/actuator/httptrace/**", "anon");
+		filterChainDefinitionMap.put("/redis/**", "anon");
+		// 添加推单人的过滤器并且取名为jwt
+		Map<String, Filter> filterMap = new HashMap<String, Filter>(2);
+		filterMap.put("jwt", new JwtFilter());
+		shiroFilterFactoryBean.setFilters(filterMap);
+		// <!-- 过滤链定义，从上向下顺序执行，一般将/**放在最为下边
+		filterChainDefinitionMap.put("/**", "jwt");
+		// 未授权界面;
+		shiroFilterFactoryBean.setUnauthorizedUrl("/403");
+		shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
+		return shiroFilterFactoryBean;
+	}
 
     /***
      * securityManager方法慨述:

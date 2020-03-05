@@ -8,25 +8,16 @@
       <change afterPath="$PROJECT_DIR$/../smartwork_taskcenter/taskcenter-provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/WebMvcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/interceptor/ReqInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/interceptor/ReqInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/realm/ExtRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/realm/ExtRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/token/JwtToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/token/JwtToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/ShiroConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT-exec.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/java/org/smartwork/SmartworkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/java/org/smartwork/SmartworkApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-dev.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-prod.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/resources/log/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/resources/log/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/application-prod.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/log/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/log/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/org/smartwork/SmartworkApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/org/smartwork/SmartworkApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartwork_messagecenter" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_messagecenter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartwork_server" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartwork_usercenter" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_usercenter" afterDir="false" />
@@ -112,7 +103,7 @@
       <workItem from="1582596044890" duration="5830000" />
       <workItem from="1582601923874" duration="30807000" />
       <workItem from="1583395675745" duration="153000" />
-      <workItem from="1583401179239" duration="260000" />
+      <workItem from="1583401179239" duration="484000" />
     </task>
     <servers />
   </component>
