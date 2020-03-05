@@ -2,22 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a71584-3f01-41ab-bdf6-ac26c6a2c293" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../smartwork_taskcenter/taskcenter-biz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartwork_taskcenter/taskcenter-dal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartwork_taskcenter/taskcenter-dal/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartwork_taskcenter/taskcenter-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/interceptor/ReqInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/interceptor/ReqInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/realm/ExtRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/realm/ExtRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/token/JwtToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/token/JwtToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT-exec.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/java/org/smartwork/SmartworkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/java/org/smartwork/SmartworkApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-dev.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-prod.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/resources/log/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/resources/log/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/application-dev.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/application-prod.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/log/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/log/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/org/smartwork/SmartworkApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/org/smartwork/SmartworkApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_warn.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smartwork_messagecenter" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_messagecenter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smartwork_server" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartwork_usercenter" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_usercenter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smartwork_zipkin_server" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_zipkin_server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +66,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../smartwork_usercenter" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38505748" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -98,6 +111,8 @@
       <updated>1582596040935</updated>
       <workItem from="1582596044890" duration="5830000" />
       <workItem from="1582601923874" duration="30807000" />
+      <workItem from="1583395675745" duration="153000" />
+      <workItem from="1583401179239" duration="260000" />
     </task>
     <servers />
   </component>
@@ -165,10 +180,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="210" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1582676208639" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1582608806011">
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1583401313668">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582608806011" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1583401313668" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1583401429932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1583401429932" />
     <state x="331" y="95" width="617" height="490" key="find.popup" timestamp="1582624257089">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -221,17 +240,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java</url>
-          <line>54</line>
+          <line>53</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java</url>
-          <line>92</line>
+          <line>91</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java</url>
-          <line>41</line>
+          <line>40</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

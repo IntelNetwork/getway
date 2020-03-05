@@ -11,7 +11,7 @@
 
     <artifactId>gateway-config</artifactId>
 
-	<build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
