@@ -13,9 +13,11 @@ import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.forbes.comm.utils.ConvertUtils;
 import org.smartwork.config.filter.JwtFilter;
 import org.smartwork.config.realm.ExtRealm;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
@@ -29,7 +31,10 @@ import org.springframework.core.annotation.Order;
 @Configuration
 @Order(value = Integer.MIN_VALUE)
 public class ShiroConfig implements Ordered {
-	
+
+
+	private String excludesStr = "/**%s";
+
 	/**
 	 * Filter Chain定义说明 
 	 * 
@@ -38,7 +43,8 @@ public class ShiroConfig implements Ordered {
 	 * 3、部分过滤器可指定参数，如perms，roles
 	 */
 	@Bean("shiroFilter")
-	public ShiroFilterFactoryBean shiroFilter(SecurityManager securityManager) {
+	public ShiroFilterFactoryBean shiroFilter(@Value(value = "${spring.shiro.excludes}")String shiroExcludes
+			,SecurityManager securityManager) {
 		ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
 		shiroFilterFactoryBean.setSecurityManager(securityManager);
 		// 拦截器
@@ -62,25 +68,6 @@ public class ShiroConfig implements Ordered {
 		filterChainDefinitionMap.put("/**/importExcel", "anon");
 		//图片预览不限制token
 		filterChainDefinitionMap.put("/**/sys/common/view/**", "anon");
-		//智工任务大厅
-		//filterChainDefinitionMap.put("/**/api/v1.0/task/list/**", "anon");
-		//智工任务大厅查看最新成交动态
-		//filterChainDefinitionMap.put("/**/api/v1.0/task/order/**", "anon");
-		//任务总数
-		//filterChainDefinitionMap.put("/**/api/v1.0/task/all-count/**", "anon");
-		//行业类型查询
-		//filterChainDefinitionMap.put("/**/api/v1.0/zgtindtype/lists/**", "anon");
-		//任务类型查询
-		//filterChainDefinitionMap.put("/**/api/v1.0/zgtasktype/lists/**", "anon");
-		//参与任务竞标人员查询
-		//filterChainDefinitionMap.put("/**/api/v1.0/taskmembers/list/**", "anon");
-		//任务
-		//filterChainDefinitionMap.put("/**/api/v1.0/taskdetail/detail/**", "anon");
-		//任务推荐
-		//filterChainDefinitionMap.put("/**/api/v1.0/recommend/list/**", "anon");
-		//暂时取消token认证,方便调接口
-		filterChainDefinitionMap.put("/**/api/v1.0/*", "anon");
-
 		filterChainDefinitionMap.put("/**/*.js", "anon");
 		filterChainDefinitionMap.put("/**/*.css", "anon");
 		filterChainDefinitionMap.put("/**/*.html", "anon");
@@ -97,6 +84,12 @@ public class ShiroConfig implements Ordered {
 		filterChainDefinitionMap.put("/actuator/metrics/**", "anon");
 		filterChainDefinitionMap.put("/actuator/httptrace/**", "anon");
 		filterChainDefinitionMap.put("/redis/**", "anon");
+		if(ConvertUtils.isNotEmpty(shiroExcludes)){
+			String[] shiroExcludeArray = shiroExcludes.split(",");
+			for (String hiroExclude : shiroExcludeArray) {
+				filterChainDefinitionMap.put(String.format(excludesStr,hiroExclude), "anon");
+			}
+		}
 		// 添加推单人的过滤器并且取名为jwt
 		Map<String, Filter> filterMap = new HashMap<String, Filter>(2);
 		filterMap.put("jwt", new JwtFilter());
