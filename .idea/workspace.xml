@@ -2,11 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a71584-3f01-41ab-bdf6-ac26c6a2c293" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../smartwork_membercenter/membercenter-api/src/main/java/org/smartwork/consumer/SettApplConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartwork_membercenter/membercenter-comm/src/main/java/org/smartwork/comm/enums/SourceDataTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartwork_membercenter/membercenter-dal/src/main/java/org/smartwork/dal/mapper/ext/ZGSettApplExtMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartwork_membercenter/membercenter-dal/src/main/java/org/smartwork/dal/mapper/ext/xml/ZGSettApplExtMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../smartwork_taskcenter/taskcenter-biz/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../smartwork_taskcenter/taskcenter-dal/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../smartwork_taskcenter/taskcenter-dal/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../smartwork_taskcenter/taskcenter-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartworkjob-job/smartworkjob-biz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartworkjob-job/smartworkjob-biz/src/main/java/org/smartwork/job/SettlTransferJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartworkjob-job/smartworkjob-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartworkjob-job/smartworkjob-client/src/main/java/org/smartwork/service/ISettApplService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartworkjob-job/smartworkjob-client/src/main/java/org/smartwork/service/ITransferApiOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartworkjob-job/smartworkjob-comm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartworkjob-job/smartworkjob-comm/src/main/java/org/smartwork/model/dto/TransferDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartworkjob-job/smartworkjob-comm/src/main/java/org/smartwork/model/vo/SettApplVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartworkjob-job/smartworkjob-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartworkjob-job/smartworkjob-provider/src/main/java/org/smartwork/SmartWorkApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/filter/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/interceptor/ReqInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/interceptor/ReqInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/realm/ExtRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/realm/ExtRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/token/JwtToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/src/main/java/org/smartwork/config/token/JwtToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/ShiroConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/WebMvcConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/WebMvcConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/filter/JwtFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/filter/JwtFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/interceptor/ReqInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/interceptor/ReqInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/realm/ExtRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/realm/ExtRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/token/JwtToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/classes/org/smartwork/config/token/JwtToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT-exec.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/gateway-config-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-config/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-config/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/java/org/smartwork/SmartworkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/java/org/smartwork/SmartworkApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-dev.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/src/main/resources/log/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/src/main/resources/log/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/log/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/log/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/classes/org/smartwork/SmartworkApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/classes/org/smartwork/SmartworkApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartwork_messagecenter" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_messagecenter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartwork_paymentcenter" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_paymentcenter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartwork_server" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_server" afterDir="false" />
@@ -52,7 +98,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../forbes-comm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38505748" />
@@ -68,6 +114,8 @@
     <configuration name="SmartworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.smartwork.SmartworkApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +150,14 @@
       <workItem from="1583454502661" duration="1953000" />
       <workItem from="1583459599150" duration="2244000" />
       <workItem from="1583476014472" duration="60000" />
-      <workItem from="1583544232993" duration="290000" />
+      <workItem from="1583544232993" duration="731000" />
+      <workItem from="1583819284199" duration="1091000" />
+      <workItem from="1583821384732" duration="1789000" />
+      <workItem from="1583899349495" duration="2858000" />
+      <workItem from="1584424842347" duration="2803000" />
+      <workItem from="1584506084305" duration="36000" />
+      <workItem from="1584532015063" duration="1261000" />
+      <workItem from="1585527174547" duration="4564000" />
     </task>
     <servers />
   </component>
@@ -110,6 +165,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585531518800">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585531518800" />
     <state x="371" y="99" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1582600850306">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -118,58 +177,58 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="485" height="454" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1583461376431" />
-    <state x="398" y="99" key="FileChooserDialogImpl" timestamp="1583461180439">
+    <state x="398" y="99" key="FileChooserDialogImpl" timestamp="1585527731004">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="398" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583461180439" />
-    <state width="1202" height="356" key="GridCell.Tab.0.bottom" timestamp="1583544590505">
+    <state x="398" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585527731004" />
+    <state width="1237" height="357" key="GridCell.Tab.0.bottom" timestamp="1585532942407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="356" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583544590505" />
-    <state width="1202" height="356" key="GridCell.Tab.0.center" timestamp="1583544590505">
+    <state width="1237" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585532942407" />
+    <state width="1237" height="357" key="GridCell.Tab.0.center" timestamp="1585532942407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="356" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583544590505" />
-    <state width="1202" height="356" key="GridCell.Tab.0.left" timestamp="1583544590503">
+    <state width="1237" height="357" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585532942407" />
+    <state width="1237" height="357" key="GridCell.Tab.0.left" timestamp="1585532942406">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="356" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583544590503" />
-    <state width="1202" height="356" key="GridCell.Tab.0.right" timestamp="1583544590505">
+    <state width="1237" height="357" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585532942406" />
+    <state width="1237" height="357" key="GridCell.Tab.0.right" timestamp="1585532942407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="356" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583544590505" />
-    <state width="1202" height="229" key="GridCell.Tab.1.bottom" timestamp="1583461846413">
+    <state width="1237" height="357" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585532942407" />
+    <state width="1237" height="357" key="GridCell.Tab.1.bottom" timestamp="1585532942408">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="229" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583461846413" />
-    <state width="1202" height="229" key="GridCell.Tab.1.center" timestamp="1583461846413">
+    <state width="1237" height="357" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585532942408" />
+    <state width="1237" height="357" key="GridCell.Tab.1.center" timestamp="1585532942407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="229" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1583461846413" />
-    <state width="1202" height="229" key="GridCell.Tab.1.left" timestamp="1583461846413">
+    <state width="1237" height="357" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585532942407" />
+    <state width="1237" height="357" key="GridCell.Tab.1.left" timestamp="1585532942407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="229" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1583461846413" />
-    <state width="1202" height="229" key="GridCell.Tab.1.right" timestamp="1583461846413">
+    <state width="1237" height="357" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585532942407" />
+    <state width="1237" height="357" key="GridCell.Tab.1.right" timestamp="1585532942407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="229" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1583461846413" />
-    <state width="1202" height="229" key="GridCell.Tab.2.bottom" timestamp="1583461846413">
+    <state width="1237" height="357" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585532942407" />
+    <state width="1237" height="283" key="GridCell.Tab.2.bottom" timestamp="1585531560926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="229" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583461846413" />
-    <state width="1202" height="229" key="GridCell.Tab.2.center" timestamp="1583461846413">
+    <state width="1237" height="283" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585531560926" />
+    <state width="1237" height="283" key="GridCell.Tab.2.center" timestamp="1585531560926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="229" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1583461846413" />
-    <state width="1202" height="229" key="GridCell.Tab.2.left" timestamp="1583461846413">
+    <state width="1237" height="283" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1585531560926" />
+    <state width="1237" height="283" key="GridCell.Tab.2.left" timestamp="1585531560926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="229" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1583461846413" />
-    <state width="1202" height="229" key="GridCell.Tab.2.right" timestamp="1583461846413">
+    <state width="1237" height="283" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1585531560926" />
+    <state width="1237" height="283" key="GridCell.Tab.2.right" timestamp="1585531560926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="229" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1583461846413" />
+    <state width="1237" height="283" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1585531560926" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1583402731250">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -186,14 +245,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="28" y="48" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1583403355119" />
-    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1583544590558">
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1585532942429">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1583544590558" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1582633029525">
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1585532942429" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1585532278804">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1582633029525" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1585532278804" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

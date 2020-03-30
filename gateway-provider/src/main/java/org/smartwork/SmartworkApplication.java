@@ -1,6 +1,7 @@
 package org.smartwork;
 
 import org.forbes.comm.constant.CommonConstant;
+import org.forbes.interceptor.ExtMybatisInterceptor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;

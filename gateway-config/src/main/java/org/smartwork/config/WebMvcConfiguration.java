@@ -1,5 +1,7 @@
 package org.smartwork.config;
 
+import org.forbes.interceptor.CsrfInterceptor;
+import org.forbes.interceptor.XssInterceptor;
 import org.smartwork.config.interceptor.ReqInterceptor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -65,6 +67,10 @@ public class WebMvcConfiguration implements WebMvcConfigurer {
      */
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(new XssInterceptor())
+                .addPathPatterns("/**");
+        registry.addInterceptor(new CsrfInterceptor())
+                .addPathPatterns("/**");
         registry.addInterceptor(new ReqInterceptor())
                 .addPathPatterns("/**");
     }
