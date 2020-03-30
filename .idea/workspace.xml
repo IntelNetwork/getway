@@ -48,10 +48,6 @@
       <change beforePath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/gateway-provider-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-provider/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-provider/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/smartwork-geteway_log_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/smartwork-geteway_log_warn.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartwork_messagecenter" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_messagecenter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartwork_paymentcenter" beforeDir="false" afterPath="$PROJECT_DIR$/../smartwork_paymentcenter" afterDir="false" />
@@ -157,7 +153,7 @@
       <workItem from="1584424842347" duration="2803000" />
       <workItem from="1584506084305" duration="36000" />
       <workItem from="1584532015063" duration="1261000" />
-      <workItem from="1585527174547" duration="4564000" />
+      <workItem from="1585527174547" duration="7316000" />
     </task>
     <servers />
   </component>
@@ -181,22 +177,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="398" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585527731004" />
-    <state width="1237" height="357" key="GridCell.Tab.0.bottom" timestamp="1585532942407">
+    <state width="1237" height="328" key="GridCell.Tab.0.bottom" timestamp="1585550032304">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585532942407" />
-    <state width="1237" height="357" key="GridCell.Tab.0.center" timestamp="1585532942407">
+    <state width="1237" height="328" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585550032304" />
+    <state width="1237" height="328" key="GridCell.Tab.0.center" timestamp="1585550032304">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585532942407" />
-    <state width="1237" height="357" key="GridCell.Tab.0.left" timestamp="1585532942406">
+    <state width="1237" height="328" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585550032304" />
+    <state width="1237" height="328" key="GridCell.Tab.0.left" timestamp="1585550032303">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585532942406" />
-    <state width="1237" height="357" key="GridCell.Tab.0.right" timestamp="1585532942407">
+    <state width="1237" height="328" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585550032303" />
+    <state width="1237" height="328" key="GridCell.Tab.0.right" timestamp="1585550032304">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="357" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585532942407" />
+    <state width="1237" height="328" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585550032304" />
     <state width="1237" height="357" key="GridCell.Tab.1.bottom" timestamp="1585532942408">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -245,10 +241,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="28" y="48" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1583403355119" />
-    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1585532942429">
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1585550032324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1585532942429" />
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1585550032324" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1585532278804">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
