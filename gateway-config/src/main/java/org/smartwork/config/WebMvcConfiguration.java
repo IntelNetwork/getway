@@ -69,8 +69,8 @@ public class WebMvcConfiguration implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new XssInterceptor())
                 .addPathPatterns("/**");
-        registry.addInterceptor(new CsrfInterceptor())
-                .addPathPatterns("/**");
+//        registry.addInterceptor(new CsrfInterceptor())
+//                .addPathPatterns("/**");
         registry.addInterceptor(new ReqInterceptor())
                 .addPathPatterns("/**");
     }
