@@ -22,7 +22,7 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
         <comm.version>1.0-SNAPSHOT</comm.version>
-        <shiro.version>1.4.0-RC2</shiro.version>
+        <shiro.version>1.7.1</shiro.version>
         <json.version>1.2.35</json.version>
     </properties>
     <dependencies>
